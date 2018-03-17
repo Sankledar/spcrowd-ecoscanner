@@ -80,6 +80,7 @@ public class CameraActivityFragment extends Fragment
      */
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
     private static final int REQUEST_CAMERA_PERMISSION = 1;
+    private static final int REQUEST_INTERNET_PERMISSION = 2;
     private static final String FRAGMENT_DIALOG = "dialog";
 
     static {
@@ -466,6 +467,7 @@ public class CameraActivityFragment extends Fragment
             new ConfirmationDialog().show(getChildFragmentManager(), FRAGMENT_DIALOG);
         } else {
             requestPermissions(new String[]{Manifest.permission.CAMERA}, REQUEST_CAMERA_PERMISSION);
+            requestPermissions(new String[]{Manifest.permission.INTERNET}, REQUEST_INTERNET_PERMISSION);
         }
     }
 
@@ -890,6 +892,7 @@ public class CameraActivityFragment extends Fragment
         switch (view.getId()) {
             case R.id.picture: {
                 takePicture();
+                ImageProcessor.ProcessImage(this.getActivity());
                 break;
             }
             case R.id.info: {

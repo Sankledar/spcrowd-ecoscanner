@@ -1,5 +1,7 @@
 package com.spcrowd.makeitdigital.ecoscanner;
 
+import android.app.Activity;
+import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -83,7 +85,7 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
-            OpenCameraActivity();
+            OpenCameraActivity(this);
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
@@ -106,13 +108,13 @@ public class MainActivity extends AppCompatActivity
         final int id = view.getId();
         switch (id) {
             case R.id.imageButton:
-                OpenCameraActivity();
+                OpenCameraActivity(this);
                 break;
         }
     }
 
-    public void OpenCameraActivity(){
-        Intent intent = new Intent(getApplicationContext(), CameraActivity.class);
-        startActivity(intent);
+    public void OpenCameraActivity(Activity activity){
+        Intent intent = new Intent(activity.getApplicationContext(), CameraActivity.class);
+        activity.startActivity(intent);
     }
 }
