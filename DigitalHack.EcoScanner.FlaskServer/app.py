@@ -61,7 +61,7 @@ def fincC_LogisticRegression(X, Y):
         lr_cls = LogisticRegression(penalty='l2', C=c)
         kf = KFold(n_splits=5,shuffle=True,random_state=241)
         cvs = cross_val_score(lr_cls, X, Y, cv=kf, scoring="roc_auc")
-        print "roc_auc_score for Logistic Regression=%s and c=%f" % (format(cvs.mean(), ".5f") ,c)
+        print ("roc_auc_score for Logistic Regression=%s and c=%f" % (format(cvs.mean(), ".5f") ,c))
 
 
 # def logistic_Regression(X, Y):
@@ -83,7 +83,7 @@ def fincC_LogisticRegression(X, Y):
 #     print "roc_auc_score for Gradient Boosting=%s and n_estimators=%d" % (format(cvs.mean(), ".2f"),n_estimators)
 
 def extract_match_features(sample):
-    print sample
+    print (sample)
     feats = [
         ('logo', 1 if 'logoAnnotations' in sample else 0),
         ('text', 1 if 'textAnnotations' in sample else 0)
@@ -132,7 +132,7 @@ def extract_match_features(sample):
     else:
         feats += [('webDetection', np.nan)]
         feats += [('bestGuessLabels', np.nan)]
-    print feats
+    print (feats)
     return collections.OrderedDict(feats)
 
 features_train = pd.read_csv(os.path.join(APP_STATIC, "features.csv"), index_col=0)
@@ -146,11 +146,11 @@ X_terms = getSparceX(X_train,True)
 perc = Perceptron(random_state=241)
 start_time = datetime.datetime.now()
 perc.fit(X_terms,Y_train)
-print 'Time elapsed:', datetime.datetime.now() - start_time
+print ('Time elapsed:', datetime.datetime.now() - start_time)
 
 kf = KFold(n_splits=5,shuffle=True,random_state=241)
 cvs = cross_val_score(perc, X_terms, Y_train, cv=kf, scoring="roc_auc")
-print "roc_auc_score for Perceptron=%s" % format(cvs.mean(), ".2f")
+print ("roc_auc_score for Perceptron=%s" % format(cvs.mean(), ".2f"))
 
 @app.route('/predict', methods = ['POST'])
 
@@ -163,7 +163,7 @@ def postJsonHandler():
     fields = None
 
     for i, sample in enumerate(d["data"]):
-        print sample
+        print (sample)
         features = extract_match_features(sample)
         if fields is None:
             fields = features.keys()
@@ -176,8 +176,8 @@ def postJsonHandler():
     X_test_transformed = getSparceX(X_test,False)
     predict = perc.predict(X_test_transformed)
     predict_proba = perc._predict_proba_lr(X_test_transformed)
-    print predict
-    print predict_proba
+    print( predict)
+    print (predict_proba)
 
     data = {}
     data['predict'] = np.array_str(predict)
