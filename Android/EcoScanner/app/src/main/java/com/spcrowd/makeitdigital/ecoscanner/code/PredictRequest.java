@@ -30,7 +30,9 @@ import java.nio.file.Files;
  */
 
 public class PredictRequest extends AsyncTask<String, String, String> {
-    private final static String ImageProcessorUrl = "http://epbyminw3809t1:3000/api/upload";
+    //private final static String ImageProcessorUrl = "http://epbyminw3809t1:3000/api/upload";
+    private final static String ImageProcessorUrl = "http://10.6.240.121:8080/upload";
+
 
     private final String crlf = "\r\n";
     private final String twoHyphens = "--";

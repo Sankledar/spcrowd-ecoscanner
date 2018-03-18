@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context="com.spcrowd.makeitdigital.ecoscanner.PredictActivity">
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_menu_camera" />
+
     <ProgressBar
         android:id="@+id/predictProgressBar"
         style="?android:attr/progressBarStyle"
@@ -36,4 +48,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/predictTxtStatus"></ListView>
+
 </android.support.constraint.ConstraintLayout>
