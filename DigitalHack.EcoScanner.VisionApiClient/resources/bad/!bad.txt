@@ -2,6 +2,9 @@ resources\bad\^3A272A04ADCDC0A327F68DC16B209505E862B7A8091EB81149^pimgpsh_fullsi
 resources\bad\^8C95CE23623CD7E80081CF9C24EDA27F455414C4E2BE300BFB^pimgpsh_fullsize_distr.jpg
 resources\bad\^D2DB387008E68628533913DA38F7F6CDCEA7E1B9D5B2BBA3E9^pimgpsh_fullsize_distr.jpg
 resources\bad\^FE4D8475F547A4B7150B0F7DCF6D783ED56CDA694FA532CB16^pimgpsh_fullsize_distr.jpg
+resources\bad\50627865_1.jpg
+resources\bad\50627865_2.jpg
+resources\bad\50627865.jpg
 resources\bad\IMG_20180316_204407.jpg
 resources\bad\IMG_20180316_204539.jpg
 resources\bad\IMG_20180316_210117.jpg
@@ -21,6 +24,10 @@ resources\bad\IMG_20180317_123011_.jpg
 resources\bad\IMG_20180317_123011.jpg
 resources\bad\IMG_20180317_123021.jpg
 resources\bad\img5.jpg
+resources\bad\number_seven_recycling_symbol.jpg
+resources\bad\plastic-recycling-symbol-pvc-3-plastic-recycling-code-pvc-3-vector-H11AYM.jpg
 resources\bad\ps-6.jpg
+resources\bad\PVC-3.png
 resources\bad\Resin-Code-Seven-Black-copy3.jpg
 resources\bad\Resin-identification-code-7-OTHER.png
+resources\bad\stock-vector--plastic-recycling-code-pvc-vector-illustration-420847324.jpg
