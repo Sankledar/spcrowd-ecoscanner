@@ -1,3 +1,5 @@
 /DigitalHack.EcoScanner.VisionApiClient/.vscode
 /DigitalHack.EcoScanner.VisionApiClient/api_client/__pycache__
 /DigitalHack.EcoScanner.VisionApiClient/samples/__pycache__
+/DigitalHack.EcoScanner.FlaskServer/.vscode
+/DigitalHack.EcoScanner.FlaskServer/venv

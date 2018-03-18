@@ -39,9 +39,10 @@ def annotate_image(imagePath):
         'image': image,
         'features': features,
     }
-    resp = client.annotate_image(request)
-    # labels = resp.label_annotations
-    return resp
+    response = client.annotate_image(request)
+    respStr = MessageToJson(response)
+    responseObj = json.loads(respStr)
+    return responseObj
 
 def annotate_image_batch(imagePathes):
     apiClient = auth.get_Api_client()
@@ -88,7 +89,13 @@ def annotate_image_batch(imagePathes):
     return responses
 
 def annotate_image_json(imagePath):
-    return MessageToJson(annotate_image(imagePath))
+    result = annotate_image(imagePath)
+    return json.dumps({'data':[result]}, indent=3)
+
+def annotate_image_for_prediction(imagePath):
+    result = annotate_image(imagePath)
+    return {'data':[result]}
+    
 
 def annotate_image_batch_json(imagePathes):
     batchResult = annotate_image_batch(imagePathes)
