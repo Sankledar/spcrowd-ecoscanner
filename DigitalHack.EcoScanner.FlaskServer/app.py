@@ -2,6 +2,11 @@ from flask import Flask
 from flask import request
 from flask import jsonify
 
+import sys
+sys.path.append('../DigitalHack.EcoScanner.VisionApiClient')
+
+import api_client.methods as visionAPI
+
 import pandas as pd
 import numpy as np
 import datetime
@@ -20,6 +25,7 @@ import os
 # __file__ refers to the file settings.py 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))   # refers to application_top
 APP_STATIC = os.path.join(APP_ROOT, 'Data')
+APP_ULOAD = os.path.join(APP_ROOT, '_upload')
 
 app = Flask(__name__)
 
@@ -158,6 +164,9 @@ def postJsonHandler():
     print (request.is_json)
     d = request.get_json()
 
+    return predict(d)
+
+def predict(d):
     print (d)
     df = {}
     fields = None
@@ -168,7 +177,7 @@ def postJsonHandler():
         if fields is None:
             fields = features.keys()
             df = {key: [] for key in fields}
-        for key, value in features.iteritems():
+        for key, value in features.items():
             df[key].append(value)
     X_test = pd.DataFrame.from_records(df).ix[:, fields]
 
@@ -186,9 +195,36 @@ def postJsonHandler():
 
     return jsonify(data)
 
+# from flask import flash
+# from flask import redirect
 
+@app.route('/upload', methods = ['POST'])
+def uploadImage():
+    if 'file' not in request.files:
+        pass
+        #flash('No file part')
+        # return redirect(request.url)
+    ff = request.files['file']
+    # if user does not select file, browser also
+    # submit a empty part without filename
+    if ff.filename == '':
+        pass
+        # flash('No selected file')
+        # return redirect(request.url)
+    if ff:
+        filename = ff.filename
+        saveFilePath = os.path.join(APP_ULOAD, filename)
+        ff.save(saveFilePath)
+        ff.close()
+        print( saveFilePath )
+        visionResponse = visionAPI.annotate_image_for_prediction(saveFilePath)
+        os.remove(saveFilePath)
+        return predict(visionResponse)
+    return ff.filename
+
+@app.route('/ping', methods = ['GET'])
 def main():
-    return "Welcome!"
+    return "pong!"
 
 if __name__ == "__main__":
    print("== Running in debug mode ==")

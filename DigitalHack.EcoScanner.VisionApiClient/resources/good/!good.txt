@@ -1,4 +1,4 @@
-resources\good\IMG_20180317_122348.jpg
+resources\good\^C439F489A8D0D5282A3CF2935E8E2D305AB53988DCA657F04.jpg
 resources\good\1.JPEG
 resources\good\1521198695198.JPEG
 resources\good\1521280953038.JPEG
@@ -26,5 +26,17 @@ resources\good\IMG_20180317_122045.jpg
 resources\good\IMG_20180317_122048.jpg
 resources\good\IMG_20180317_122343.jpg
 resources\good\IMG_20180317_122345.jpg
+resources\good\IMG_20180317_122348.jpg
+resources\good\IMG_20180317_122712_1.jpg
+resources\good\IMG_20180317_122712.jpg
+resources\good\IMG_20180317_122737_2.jpg
+resources\good\IMG_20180317_122737.jpg
+resources\good\IMG_20180317_122745_2.jpg
+resources\good\IMG_20180317_122745.jpg
+resources\good\IMG_20180317_123210.jpg
+resources\good\IMG_20180317_123304.jpg
+resources\good\IMG_20180317_123306.jpg
+resources\good\IMG_20180317_123309.jpg
+resources\good\IMG_20180317_123424.jpg
 resources\good\stock-vector-recycling-symbols-for-plastic-on-a-black-background-488135128.jpg
 resources\good\water-bottle-recycling-number.jpg
