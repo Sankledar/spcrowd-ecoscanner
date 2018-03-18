@@ -1,79 +1,78 @@
-,logo,text,labelAnnotations,logoAnnotations,textAnnotations,webDetection,bestGuessLabels,isRecycable
-0,0,1,[u'red' u'pink' u'text' u'font' u'magenta' u'brand'],,[u'\u30672\nPENO\n' u'\u3067' u'2' u'PENO'],[u'Font' u'Brand'],[],1
-1,0,0,[u'material' u'metal' u'font' u'glass'],,,[u'Metal' u'Font'],[u'metal'],0
-2,0,0,[u'glass' u'font' u'number'],,,"[u'Bear' u'Glass' u'Sansai' u'Mountaineering' u'Trekking'
-
- u'Japanese recycling symbols' u'Computer font' u'Recycling']",[u'\u30ea\u30b5\u30a4\u30af\u30eb \u30de\u30fc\u30af'],1
-3,0,0,"[u'white' u'photograph' u'text' u'font' u'product' u'material' u'number'
-
- u'brand']",,,[u'Brand' u'Font' u'Photograph'],[u'photograph'],1
-4,0,0,"[u'blue' u'motor vehicle' u'automotive design' u'car' u'electric blue'
-
- u'vehicle' u'product design' u'wheel' u'product' u'shoe']",,,"[u'Car' u'Compact car' u'Wheel' u'Automotive design'
-
- u'Automotive lighting' u'Product design' u'Motor vehicle' u'Close-up'
-
- u'Design' u'Vehicle']",[u'electric blue'],1
-5,0,1,[u'green' u'font' u'product'],,[u'0-3\n' u'0-3'],[u'Font' u'Close-up'],[u'close up'],0
-6,0,0,[u'white' u'font' u'product'],,,[u'Font' u'Close-up'],[u'close up'],1
-7,0,0,[u'text' u'font' u'product' u'number' u'brand'],,,[u'Brand' u'Font'],[u'number'],1
-8,0,0,"[u'blue' u'electric blue' u'automotive design' u'close up'
-
- u'personal protective equipment' u'motor vehicle' u'product' u'glass'
-
- u'auto part' u'font']",,,"[u'Car' u'Motor vehicle' u'Automotive design' u'Glass'
-
- u'Personal protective equipment' u'Close-up' u'Font' u'Vehicle'
-
- u'Graphic design']",[u'electric blue'],1
-9,0,1,[u'text' u'font' u'number' u'product' u'label' u'angle' u'brand' u'sign'],,"[u'la\nAngustifolia Herb Extra\n01\nPETL\n' u'la' u'Angustifolia' u'Herb'
-
- u'Extra' u'01' u'PETL']",[u'Font' u'Angle' u'Brand'],[u'number'],1
-10,0,1,[u'text' u'font' u'close up' u'square' u'brand'],,"[u'CTBO\nstan@splat.ru. Pec\nOTHER\n' u'CTBO' u'stan@splat.ru.' u'Pec'
-
- u'OTHER']","[u'Font' u'Close-up' u'Brand' u'Square, Inc.']",[u'close up'],0
-11,0,0,"[u'black and white' u'metal' u'font' u'silver' u'material' u'product'
+id,logo,text,labelAnnotations,logoAnnotations,textAnnotations,webDetection,bestGuessLabels,isRecycable
+0,0,0,[u'red'],,,[u'Red Digital Cinema Camera Company'],[],1
+1,0,0,"[u'black and white' u'metal' u'font' u'silver' u'material' u'product'
 
  u'monochrome']",,,[u'Silver' u'White' u'Black' u'Font'],[u'silver'],0
-12,1,0,[u'text' u'brown' u'font' u'material' u'brand'],[u'Keep Britain Tidy'],,[u'Font' u'Brand' u'Keep Britain Tidy'],[u'keep britain tidy'],0
-13,1,1,"[u'text' u'font' u'black and white' u'line' u'logo' u'area' u'clip art'
+2,0,0,[u'material' u'glass' u'automotive exterior' u'product' u'metal'],,,[u'Car' u'Glass' u'Material' u'Metal'],[u'glass'],0
+3,0,1,[u'text' u'font' u'label' u'brand'],,"[u'\u0438\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f, \u0418\u0441\u043f\n\u4e59J\nC/HDPE\n'
+
+ u'\u0438\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f'
+
+ u',' u'\u0418\u0441\u043f' u'\u4e59' u'J' u'C/HDPE']","[u'Lojas Americanas' u'Logistics' u'Submarino' u'Proposal'
+
+ u'Reverse logistics' u'Shoptime' u'Service' u'Price' u'Label' u'Book']",[u'label'],0
+4,0,0,[u'purple' u'font' u'space' u'graphics'],,,"[u'Plastic' u'Recycling symbol' u'Plastic bottle' u'PET bottle recycling'
+
+ u'Bottle' u'Plastic recycling' u'Polyethylene terephthalate' u'Recycling'
+
+ u'Recycling codes' u'Resin identification code']",[u'meaning of sign of plastic bottles'],1
+5,0,1,"[u'text' u'font' u'logo' u'product' u'area' u'line' u'brand' u'graphics'
+
+ u'product design' u'symbol']",,[u'7\nOTHER\n' u'7' u'OTHER'],"[u'Plastic' u'Resin identification code' u'Plastic recycling'
+
+ u'Recycling codes' u'Recycling' u'Recycling symbol'
+
+ u'Packaging and labeling' u'Industry' u'Plastic bottle'
+
+ u'Society of the Plastics Industry']",[u'7 other plastic'],0
+6,0,1,[u'text' u'font' u'close up' u'number'],,[u'90\n' u'90'],[u'Font' u'Close-up'],[u'close up'],0
+7,0,0,"[u'metal' u'material' u'automotive exterior' u'glass' u'angle' u'floor'
+
+ u'product']",,,[u'Car' u'Metal' u'Angle' u'Floor'],[u'metal'],0
+8,1,1,"[u'text' u'font' u'black and white' u'line' u'logo' u'area' u'clip art'
 
  u'symbol' u'graphics' u'brand']",[u'Low-density polyethylene'],[u'2\nHDPE\n' u'2' u'HDPE'],"[u'Plastic bag' u'High-density polyethylene' u'Low-density polyethylene'
 
  u'Plastic' u'Polyethylene' u'Plastic recycling' u'Recycling'
 
  u'Polyethylene terephthalate' u'Polypropylene' u'Plastic bottle']",[u'low-density polyethylene'],1
-14,0,0,"[u'tableware' u'cup' u'product design' u'lid' u'product' u'cup'
-
- u'drinkware']",,,[u'Product' u'Product design' u'Lid' u'Cup' u'Design'],[u'cup'],1
-15,1,0,"[u'text' u'font' u'number' u'brown' u'textile' u'material' u'pattern'
-
- u'product' u'design' u'symbol']",[u'Polypropylene'],,"[u'Plastic bag' u'Polypropylene' u'Plastic' u'Recycling'
-
- u'Recycling codes' u'Plastic recycling' u'Recycling symbol'
-
- u'Polyvinyl chloride' u'Toilet' u'Container']",[u'pp 5'],1
-16,0,0,[u'blue' u'font' u'organism' u'electric blue' u'product'],,,"[u'Plastic' u'High-density polyethylene' u'Polyethylene' u'Thermoplastic'
-
- u'Pipe' u'Recycling' u'Plastic film' u'Label' u'Bottle' u'Polymer']",[u'cobalt blue'],1
-17,0,1,[u'close up' u'font' u'product design' u'product' u'cup'],,[u'100\n30\n\u0440\u0440\n' u'100' u'30' u'\u0440\u0440'],[u'Product' u'Product design' u'Font' u'Close-up' u'Design'],[u'close up'],1
-18,0,1,[u'material' u'metal' u'product' u'font'],,[u'PS\n' u'PS'],[u'Metal' u'Font'],[u'metal'],0
-19,0,0,"[u'plumbing fixture' u'tap' u'toilet seat' u'toilet' u'bidet' u'sink'
+9,0,0,"[u'plumbing fixture' u'tap' u'toilet seat' u'toilet' u'bidet' u'sink'
 
  u'product design' u'bathtub' u'angle' u'glass']",,,"[u'Bideh' u'Toilet & Bidet Seats' u'Glass' u'Tap' u'Sink' u'Bathtub'
 
  u'Product design' u'Angle' u'Toilet' u'Design']",[u'tap'],0
-20,0,0,"[u'metal' u'material' u'automotive exterior' u'glass' u'angle' u'floor'
+10,0,1,[u'red' u'pink' u'text' u'font' u'magenta' u'brand'],,[u'\u30672\nPENO\n' u'\u3067' u'2' u'PENO'],[u'Font' u'Brand'],[],1
+11,0,1,"[u'text' u'font' u'number' u'angle' u'product design' u'handwriting'
 
- u'product']",,,[u'Car' u'Metal' u'Angle' u'Floor'],[u'metal'],0
-21,0,0,"[u'green' u'text' u'needlework' u'pattern' u'textile' u'font'
+ u'symbol' u'writing']",,"[u'6, e-mail: bielita@ma\n07\n' u'6,' u'e-mail:' u'bielita@ma' u'07']","[u'Plastic' u'Plastic bag' u'High-density polyethylene' u'Recycling'
 
- u'cross stitch' u'design' u'material' u'stitch']",,,"[u'Plastic' u'SlideShare' u'Polyethylene terephthalate' u'Bottle'
+ u'Polyethylene terephthalate' u'Low-density polyethylene' u'Material'
 
- u'Textile' u'Fibra tessile' u'High-density polyethylene' u'Information'
+ u'Polypropylene' u'Thermoplastic' u'Plastic bottle']",[u'plastic 2'],0
+12,0,1,[u'material' u'metal' u'product' u'font'],,[u'PS\n' u'PS'],[u'Metal' u'Font'],[u'metal'],0
+13,0,0,"[u'blue' u'motor vehicle' u'automotive design' u'car' u'electric blue'
 
- u'Polyethylene' u'Recycling']",[u'needlework'],1
-22,0,1,[u'text' u'font' u'label' u'product' u'number'],,"[u'\u0440-\u043d,\nD.\n\u0430\u043d\u0430\n\u4e59-(8\nC/LDPE\n\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0439\n\u0435\u043c:\n'
+ u'vehicle' u'product design' u'wheel' u'product' u'shoe']",,,"[u'Car' u'Compact car' u'Wheel' u'Automotive design'
+
+ u'Automotive lighting' u'Product design' u'Motor vehicle' u'Close-up'
+
+ u'Design' u'Vehicle']",[u'electric blue'],1
+14,0,0,[u'yellow' u'orange' u'font'],,,"[u'High-density polyethylene' u'Plastic' u'Low-density polyethylene'
+
+ u'Recycling symbol' u'Plastic recycling' u'Resin identification code'
+
+ u'Bucket' u'Recycling codes' u'Food storage containers' u'Polypropylene']",[u'hdpe 2 plastic'],1
+15,0,1,[u'text' u'font' u'number' u'product' u'label' u'angle' u'brand' u'sign'],,"[u'la\nAngustifolia Herb Extra\n01\nPETL\n' u'la' u'Angustifolia' u'Herb'
+
+ u'Extra' u'01' u'PETL']",[u'Font' u'Angle' u'Brand'],[u'number'],1
+16,1,1,"[u'black and white' u'text' u'font' u'line' u'area' u'clip art' u'logo'
+
+ u'symbol' u'graphics' u'monochrome']",[u'HDPE'],[u'7\nOTHER\n' u'7' u'OTHER'],"[u'Recycling codes' u'Plastic' u'Resin identification code'
+
+ u'Recycling symbol' u'Clip art' u'Recycling' u'Plastic recycling'
+
+ u'Plastic bottle' u'Polyethylene terephthalate' u'Vector graphics']",[u'7 other'],0
+17,0,1,[u'text' u'font' u'label' u'product' u'number'],,"[u'\u0440-\u043d,\nD.\n\u0430\u043d\u0430\n\u4e59-(8\nC/LDPE\n\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0439\n\u0435\u043c:\n'
 
  u'\u0440' u'-' u'\u043d' u',' u'D.' u'\u0430\u043d\u0430' u'\u4e59' u'-'
 
@@ -82,69 +81,74 @@
  u'\u043c\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0439' u'\u0435\u043c'
 
  u':']",[u'Font' u'Close-up'],[u'close up'],0
-23,0,0,[u'yellow' u'macro photography' u'font'],,,[u'Yellow' u'Font' u'Macro photography' u'Photography'],[u'macro photography'],1
-24,0,1,[u'text' u'font' u'product' u'label' u'material' u'paper'],,"[u'1342 \u0e1c\u0e39\u0e49\nne 55%\n5\n' u'1342' u'\u0e1c\u0e39\u0e49'
+18,0,0,[u'metal' u'silver' u'material' u'product' u'font' u'black and white'],,,[u'Silver' u'White' u'Black' u'Font'],[u'silver'],0
+19,0,0,[u'body jewelry' u'silver' u'product design' u'font'],,,"[u'Product design' u'Font' u'Body Jewellery' u'Design' u'Product'
 
- u'ne' u'55' u'%' u'5']",[u'Paper' u'Font' u'Label'],[u'label'],0
-25,0,0,[u'yellow' u'orange' u'font'],,,"[u'High-density polyethylene' u'Plastic' u'Low-density polyethylene'
+ u'Jewellery']",[u'body jewelry'],1
+20,0,0,"[u'product' u'plumbing fixture' u'sink' u'material' u'glass'
 
- u'Recycling symbol' u'Plastic recycling' u'Resin identification code'
+ u'toilet seat']",,,[u'Sink' u'Glass' u'Toilet & Bidet Seats' u'Close-up' u'Toilet' u'Seat'],[u'sink'],0
+21,0,0,"[u'blue' u'automotive design' u'electric blue' u'close up' u'iron'
 
- u'Bucket' u'Recycling codes' u'Food storage containers' u'Polypropylene']",[u'hdpe 2 plastic'],1
-26,0,0,"[u'blue' u'cobalt blue' u'light' u'electric blue' u'automotive design'
+ u'product' u'personal protective equipment' u'product design'
+
+ u'auto part' u'automotive exterior']",,,"[u'Car' u'Automotive design' u'Product design' u'Close-up' u'Wheel'
+
+ u'Design' u'Personal protective equipment' u'Iron' u'Graphic design'
+
+ u'Product']",[u'cobalt blue'],1
+22,0,0,"[u'blue' u'cobalt blue' u'light' u'electric blue' u'automotive design'
 
  u'automotive lighting' u'personal protective equipment' u'glass' u'water'
 
  u'wheel']",,,"[u'Light' u'Automotive lighting' u'Car' u'Automotive design' u'Glass'
 
  u'Close-up' u'Font' u'Wheel' u'Personal protective equipment' u'Lighting']",[u'cobalt blue'],1
-27,0,0,[u'product design' u'material' u'product'],,,[u'Product design' u'Product' u'Material' u'Design'],[u'material'],1
-28,0,1,[u'text' u'font' u'area' u'number' u'angle' u'art'],,[u'PET\n' u'PET'],[u'Art' u'Font' u'Area' u'Angle'],[u'number'],1
-29,0,0,"[u'product' u'plumbing fixture' u'sink' u'material' u'glass'
+23,0,0,"[u'automotive tire' u'tire' u'wheel' u'electric blue'
 
- u'toilet seat']",,,[u'Sink' u'Glass' u'Toilet & Bidet Seats' u'Close-up' u'Toilet' u'Seat'],[u'sink'],0
-30,1,1,[u'blue' u'text' u'font' u'angle' u'label' u'product' u'number'],[u'PVC'],[u'2\nHOPE\nHO\n' u'2' u'HOPE' u'HO'],"[u'Label' u'Font' u'Bottle' u'Printing' u'Angle' u'Sport' u'Ounce'
+ u'personal protective equipment' u'auto part' u'automotive wheel system'
 
- u'Value']",[u'4allpromos 200 printed sport bottles - 26 oz value bottle'],1
-31,0,1,[u'text' u'font' u'sign' u'angle' u'brand' u'number' u'symbol'],,[u'C/LDPE\n' u'C/LDPE'],"[u'Paper' u'Recycling codes' u'Recycling' u'Polyethylene terephthalate'
+ u'product' u'glass']",,,"[u'Tire' u'Cobalt blue' u'Glass' u'Wheel' u'Close-up'
 
- u'Low-density polyethylene' u'Plastic' u'Packaging and labeling'
+ u'Personal protective equipment' u'Blue' u'Cobalt']",[u'cobalt blue'],1
+24,0,1,[u'text' u'font' u'close up' u'square' u'brand'],,"[u'CTBO\nstan@splat.ru. Pec\nOTHER\n' u'CTBO' u'stan@splat.ru.' u'Pec'
 
- u'Polyvinyl chloride' u'High-density polyethylene' u'Polyethylene']",[u'recycle code 90'],0
-32,0,0,[u'tableware' u'product design' u'cup' u'ceramic'],,,[u'Product design' u'Ceramic' u'Design' u'Product'],[u'cup'],1
-33,0,0,"[u'green' u'aqua' u'turquoise' u'teal' u'water' u'organism' u'font'
-
- u'turquoise' u'underwater']",,,"[u'Green' u'Turquoise' u'Turquoise' u'Font' u'Close-up' u'Water'
-
- u'Organism']",[u'water'],1
-34,0,1,[u'font' u'product'],,[u'0 1\nPET\n' u'0' u'1' u'PET'],[u'Paper' u'Computer font' u'\u30de\u30fc\u30af'],[u'\u7d19 \u30de\u30fc\u30af'],1
-35,0,0,[u'material' u'glass' u'automotive exterior' u'product' u'metal'],,,[u'Car' u'Glass' u'Material' u'Metal'],[u'glass'],0
-36,0,1,[u'green' u'yellow' u'text' u'font' u'product' u'sign'],,[u'\xb7\n\uc18c\n02\nHOPE\n' u'\xb7' u'\uc18c' u'02' u'HOPE'],"[u'Recycling' u'Paper' u'Reuse' u'Waste' u'Electronic waste'
-
- u'Electronics' u'Recycling symbol' u'Computer recycling'
-
- u'Vector graphics' u'Packaging and labeling']",[u'Electronics'],1
-37,0,0,[u'body jewelry' u'silver' u'product design' u'font'],,,"[u'Product design' u'Font' u'Body Jewellery' u'Design' u'Product'
-
- u'Jewellery']",[u'body jewelry'],1
-38,0,1,[u'text' u'font' u'angle' u'number' u'drawing'],,[u'\uc18c\nPET\n' u'\uc18c' u'PET'],[u'Drawing' u'Font' u'Angle'],[u'angle'],1
-39,0,0,"[u'material' u'glass' u'automotive exterior' u'plumbing fixture' u'floor'
-
- u'toilet seat']",,,[u'Toilet & Bidet Seats' u'Glass' u'Toilet' u'Seat'],[u'glass'],0
-40,0,0,"[u'black and white' u'metal' u'product' u'monochrome photography'
-
- u'monochrome' u'silver' u'font' u'material' u'product design' u'pattern']",,,"[u'Silver' u'Product design' u'White' u'Material' u'Font' u'Black'
-
- u'Pattern' u'Design' u'Product']",[u'monochrome photography'],0
-41,0,0,"[u'light' u'plumbing fixture' u'glass' u'floor' u'toilet seat'
+ u'OTHER']","[u'Font' u'Close-up' u'Brand' u'Square, Inc.']",[u'close up'],0
+25,0,1,[u'green' u'font' u'product'],,[u'0-3\n' u'0-3'],[u'Font' u'Close-up'],[u'close up'],0
+26,0,0,"[u'light' u'plumbing fixture' u'glass' u'floor' u'toilet seat'
 
  u'automotive exterior' u'material' u'product' u'sink']",,,"[u'Light' u'Toilet & Bidet Seats' u'Car' u'Glass' u'Sink' u'Floor'
 
  u'Toilet' u'Seat']",[u'light'],0
-42,0,1,[u'text' u'font' u'calligraphy' u'label'],,"[u'\u0430\u0434\u0441\u043a\u0430\u044f \u043a\u0430, Sm\n'
+27,0,1,[u'text' u'font' u'sign' u'angle' u'brand' u'number' u'symbol'],,[u'C/LDPE\n' u'C/LDPE'],"[u'Paper' u'Recycling codes' u'Recycling' u'Polyethylene terephthalate'
 
- u'\u0430\u0434\u0441\u043a\u0430\u044f' u'\u043a\u0430' u',' u'Sm']",[u'Font' u'Calligraphy'],[u'calligraphy'],0
-43,0,1,[u'text' u'font' u'label' u'brand'],,"[u'27276,\u0441 \u041c\u043e\u0441\u043a\u0432\u0430, \u0443\u043f. \u0411\u043e\u0442\u0430\u043d\n\u0412 \xab\u041a\u0440\u0435\u0434\u043e-Kannan-\u0423\u0440\u0430\u0457\u043d\u0430\xbb\nwww.credo-capit\n\u041b\u041f\u0410\u041a\nHDPE\n'
+ u'Low-density polyethylene' u'Plastic' u'Packaging and labeling'
+
+ u'Polyvinyl chloride' u'High-density polyethylene' u'Polyethylene']",[u'recycle code 90'],0
+28,0,0,"[u'material' u'glass' u'automotive exterior' u'plumbing fixture' u'floor'
+
+ u'toilet seat']",,,[u'Toilet & Bidet Seats' u'Glass' u'Toilet' u'Seat'],[u'glass'],0
+29,1,1,"[u'text' u'font' u'product' u'line' u'logo' u'sign' u'area' u'brand'
+
+ u'symbol' u'number']",[u'Low-density polyethylene'],[u'PS\n' u'PS'],"[u'Recycling' u'Plastic' u'Recycling symbol' u'Polystyrene'
+
+ u'Plastic recycling' u'Resin identification code'
+
+ u'Packaging and labeling' u'Polypropylene' u'Paper recycling' u'Material']",[u'6 ps logo'],0
+30,0,1,[u'text' u'font' u'angle' u'number' u'drawing'],,[u'\uc18c\nPET\n' u'\uc18c' u'PET'],[u'Drawing' u'Font' u'Angle'],[u'angle'],1
+31,0,1,[u'text' u'font' u'area' u'number' u'angle' u'art'],,[u'PET\n' u'PET'],[u'Art' u'Font' u'Area' u'Angle'],[u'number'],1
+32,0,0,[u'yellow' u'macro photography'],,,[u'Yellow' u'Macro photography' u'Photography'],[u'orange'],1
+33,0,0,"[u'blue' u'electric blue' u'automotive design' u'close up'
+
+ u'personal protective equipment' u'motor vehicle' u'product' u'glass'
+
+ u'auto part' u'font']",,,"[u'Car' u'Motor vehicle' u'Automotive design' u'Glass'
+
+ u'Personal protective equipment' u'Close-up' u'Font' u'Vehicle'
+
+ u'Graphic design']",[u'electric blue'],1
+34,0,0,[u'product design' u'material' u'product'],,,[u'Product design' u'Product' u'Material' u'Design'],[u'material'],1
+35,0,1,[u'text' u'font' u'label' u'brand'],,"[u'27276,\u0441 \u041c\u043e\u0441\u043a\u0432\u0430, \u0443\u043f. \u0411\u043e\u0442\u0430\u043d\n\u0412 \xab\u041a\u0440\u0435\u0434\u043e-Kannan-\u0423\u0440\u0430\u0457\u043d\u0430\xbb\nwww.credo-capit\n\u041b\u041f\u0410\u041a\nHDPE\n'
 
  u'27276' u',' u'\u0441' u'\u041c\u043e\u0441\u043a\u0432\u0430' u','
 
@@ -155,108 +159,7 @@
  u'\u0423\u0440\u0430\u0457\u043d\u0430' u'\xbb' u'www.credo-capit'
 
  u'\u041b\u041f\u0410\u041a' u'HDPE']",[u'Font'],[u'label'],1
-44,0,0,[u'yellow' u'material'],,,[u'Yellow'],[u'material'],1
-45,0,1,[u'text' u'font' u'label' u'brand'],,"[u'\u0438\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f, \u0418\u0441\u043f\n\u4e59J\nC/HDPE\n'
-
- u'\u0438\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f'
-
- u',' u'\u0418\u0441\u043f' u'\u4e59' u'J' u'C/HDPE']","[u'Lojas Americanas' u'Logistics' u'Submarino' u'Proposal'
-
- u'Reverse logistics' u'Shoptime' u'Service' u'Price' u'Label' u'Book']",[u'label'],0
-46,0,1,[u'yellow' u'font'],,[u'HDPL\n' u'HDPL'],[u'Yellow' u'Font'],[u'orange'],1
-47,0,0,"[u'plumbing fixture' u'toilet seat' u'tap' u'sink' u'product design'
-
- u'glass' u'bidet' u'angle' u'product']",,,"[u'Bideh' u'Toilet & Bidet Seats' u'Glass' u'Sink' u'Tap'
-
- u'Product design' u'Angle' u'Toilet' u'Design' u'Seat']",[u'toilet seat'],0
-48,0,1,"[u'text' u'font' u'number' u'angle' u'product design' u'handwriting'
-
- u'symbol' u'writing']",,"[u'6, e-mail: bielita@ma\n07\n' u'6,' u'e-mail:' u'bielita@ma' u'07']","[u'Plastic' u'Plastic bag' u'High-density polyethylene' u'Recycling'
-
- u'Polyethylene terephthalate' u'Low-density polyethylene' u'Material'
-
- u'Polypropylene' u'Thermoplastic' u'Plastic bottle']",[u'plastic 2'],0
-49,1,1,"[u'text' u'font' u'product' u'line' u'logo' u'sign' u'area' u'brand'
-
- u'symbol' u'number']",[u'Low-density polyethylene'],[u'PS\n' u'PS'],"[u'Recycling' u'Recycling symbol' u'Plastic' u'Recycling codes'
-
- u'Packaging and labeling' u'Plastic recycling'
-
- u'Resin identification code' u'High-density polyethylene'
-
- u'Polypropylene' u'Low-density polyethylene']",[u'recycle symbol on packaging'],0
-50,0,0,[u'drawing' u'font' u'glass' u'circle' u'glass bottle'],,,"[u'Glass' u'Glass bottle' u'Drawing' u'Font' u'Circle' u'Close-up'
-
- u'Bottle']",[u'drawing'],1
-51,0,0,[u'purple' u'font' u'space' u'graphics'],,,"[u'Plastic' u'Recycling symbol' u'Plastic bottle' u'PET bottle recycling'
-
- u'Bottle' u'Polyethylene terephthalate' u'Plastic recycling' u'Recycling'
-
- u'Resin identification code' u'Container']",[u'meaning of sign of plastic bottles'],1
-52,0,0,"[u'blue' u'automotive design' u'electric blue' u'close up' u'iron'
-
- u'product' u'personal protective equipment' u'product design'
-
- u'auto part' u'automotive exterior']",,,"[u'Car' u'Automotive design' u'Product design' u'Close-up' u'Wheel'
-
- u'Design' u'Personal protective equipment' u'Iron' u'Graphic design'
-
- u'Product']",[u'cobalt blue'],1
-53,0,1,[u'text' u'font' u'angle' u'sign' u'brand' u'symbol' u'number'],,[u'C/PAP\n' u'C/PAP'],"[u'Paper' u'Recycling' u'Polyvinyl chloride' u'Recycling symbol'
-
- u'Paper recycling' u'Extrusion' u'cardboard' u'Vector graphics'
-
- u'Disposable' u'Symbol']",[u'Recycling symbol'],0
-54,0,1,[u'cake' u'icing' u'buttercream' u'font' u'product' u'royal icing'],,[u'PET\n' u'PET'],[u'Buttercream' u'Royal icing' u'Font'],[u'cake'],1
-55,0,1,"[u'violet' u'purple' u'text' u'pink' u'font' u'magenta'
-
- u'computer wallpaper']",,[u'2M\n250 M\n' u'2M' u'250' u'M'],[u'Desktop Wallpaper' u'Map' u'Scale' u'Font' u'Computer' u'Wallpaper'],[u'escalas de los mapas'],1
-56,0,1,[u'text' u'font' u'close up' u'number'],,[u'90\n' u'90'],[u'Font' u'Close-up'],[u'close up'],0
-57,0,0,[u'floor' u'circle' u'material' u'flooring' u'font'],,,[u'Floor' u'Circle' u'Font'],[u'floor'],1
-58,0,0,[u'red'],,,[u'Red Digital Cinema Camera Company'],[],1
-59,1,1,"[u'text' u'font' u'product' u'square' u'material' u'label' u'brand'
-
- u'number' u'pattern' u'paper']",[u'ISO 26000'],"[u'thi\nISO 22000:2005\nFOOD SAFETY\nCIPAP\n' u'thi' u'ISO' u'22000:2005'
-
- u'FOOD' u'SAFETY' u'CIPAP']","[u'Paper' u'Font' u'Label' u'Pattern' u'ISO 26000' u'Brand'
-
- u'Square, Inc.' u'International Organization for Standardization']",[u'iso 26000'],0
-60,0,0,[u'product' u'product design' u'font'],,,[u'Product' u'Product design' u'Font' u'Design'],[],1
-61,0,1,[u'text' u'font' u'angle' u'brand'],,"[u'90\n\u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0430\n'
-
- u'90' u'\u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f'
-
- u'\u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0430']",[u'Font' u'Angle' u'Brand'],[u'angle'],0
-62,0,0,"[u'blue' u'aqua' u'water' u'turquoise' u'close up' u'azure' u'teal'
-
- u'turquoise' u'macro photography' u'font']",,,[u'Turquoise' u'Water' u'Close-up' u'Turquoise' u'Font'],[u'water'],1
-63,0,0,"[u'automotive tire' u'tire' u'wheel' u'electric blue'
-
- u'personal protective equipment' u'auto part' u'automotive wheel system'
-
- u'product' u'glass']",,,"[u'Tire' u'Cobalt blue' u'Glass' u'Wheel' u'Close-up'
-
- u'Personal protective equipment' u'Blue' u'Cobalt']",[u'cobalt blue'],1
-64,0,0,"[u'automotive exterior' u'motor vehicle' u'glass' u'material' u'metal'
-
- u'auto part' u'product']",,,[u'Car' u'Glass' u'Material' u'Metal'],[u'glass'],0
-65,0,0,"[u'motor vehicle' u'blue' u'car' u'automotive design' u'electric blue'
-
- u'vehicle door' u'vehicle' u'automotive exterior' u'automotive lighting'
-
- u'hood']",,,"[u'Car door' u'Car' u'Compact car' u'Automotive design' u'Wheel'
-
- u'Motor vehicle' u'Hood' u'Headlamp' u'Tire' u'Family car']",[u'electric blue'],1
-66,1,1,"[u'black and white' u'text' u'font' u'line' u'area' u'clip art' u'logo'
-
- u'symbol' u'graphics' u'monochrome']",[u'HDPE'],[u'7\nOTHER\n' u'7' u'OTHER'],"[u'Plastic' u'Plastic recycling' u'Recycling codes'
-
- u'Resin identification code' u'High-density polyethylene'
-
- u'Plastic bottle' u'Recycling' u'Recycling symbol'
-
- u'Polyethylene terephthalate' u'Polypropylene']",[u'other plastic'],0
-67,1,1,"[u'text' u'font' u'logo' u'symbol' u'brand' u'sign' u'product design'
+36,1,1,"[u'text' u'font' u'logo' u'symbol' u'brand' u'sign' u'product design'
 
  u'illustration' u'label' u'circle']",[u'Letter'],"[u'2\nHDPE\nwww.shutterstock.com 488135128\n' u'2' u'HDPE'
 
@@ -267,14 +170,64 @@
  u'Low-density polyethylene' u'Plastic recycling' u'Recycling codes'
 
  u'Illustration']",[u'hdpe'],1
-68,0,0,[u'metal' u'silver' u'material' u'product' u'font' u'black and white'],,,[u'Silver' u'White' u'Black' u'Font'],[u'silver'],0
-69,0,1,"[u'text' u'font' u'logo' u'product' u'area' u'line' u'brand' u'graphics'
+37,0,0,[u'yellow' u'material'],,,[u'Yellow'],[u'material'],1
+38,0,0,"[u'green' u'text' u'needlework' u'pattern' u'textile' u'font'
 
- u'product design' u'symbol']",,[u'7\nOTHER\n' u'7' u'OTHER'],"[u'Plastic' u'Resin identification code' u'Plastic recycling'
+ u'cross stitch' u'design' u'material' u'stitch']",,,"[u'Plastic' u'SlideShare' u'Polyethylene terephthalate' u'Bottle'
 
- u'Recycling codes' u'Recycling' u'Recycling symbol'
+ u'Textile' u'Fibra tessile' u'High-density polyethylene' u'Information'
 
- u'Packaging and labeling' u'Industry' u'Plastic bottle'
+ u'Polyethylene' u'Recycling']",[u'needlework'],1
+39,0,0,[u'tableware' u'product design' u'cup' u'ceramic'],,,[u'Product design' u'Ceramic' u'Design' u'Product'],[u'cup'],1
+40,0,1,"[u'violet' u'purple' u'text' u'pink' u'font' u'magenta'
 
- u'Society of the Plastics Industry']",[u'7 other plastic'],0
-70,0,0,[u'yellow' u'macro photography'],,,[u'Yellow' u'Macro photography' u'Photography'],[u'orange'],1
+ u'computer wallpaper']",,[u'2M\n250 M\n' u'2M' u'250' u'M'],[u'Desktop Wallpaper' u'Map' u'Scale' u'Font' u'Computer' u'Wallpaper'],[u'escalas de los mapas'],1
+41,0,0,"[u'black and white' u'metal' u'product' u'monochrome photography'
+
+ u'monochrome' u'silver' u'font' u'material' u'product design' u'pattern']",,,"[u'Silver' u'Product design' u'White' u'Material' u'Font' u'Black'
+
+ u'Pattern' u'Design' u'Product']",[u'monochrome photography'],0
+42,0,1,[u'yellow' u'font'],,[u'HDPL\n' u'HDPL'],[u'Yellow' u'Font'],[u'orange'],1
+43,0,0,[u'white' u'font' u'product'],,,[u'Font' u'Close-up'],[u'close up'],1
+44,0,0,[u'material' u'metal' u'font' u'glass'],,,[u'Metal' u'Font'],[u'metal'],0
+45,1,1,[u'blue' u'text' u'font' u'angle' u'label' u'product' u'number'],[u'PVC'],[u'2\nHOPE\nHO\n' u'2' u'HOPE' u'HO'],"[u'Label' u'Font' u'Bottle' u'Printing' u'Angle' u'Sport' u'Ounce'
+
+ u'Value']",[u'4allpromos 200 printed sport bottles - 26 oz value bottle'],1
+46,0,0,"[u'plumbing fixture' u'toilet seat' u'tap' u'sink' u'product design'
+
+ u'glass' u'bidet' u'angle' u'product']",,,"[u'Bideh' u'Toilet & Bidet Seats' u'Glass' u'Sink' u'Tap'
+
+ u'Product design' u'Angle' u'Toilet' u'Design' u'Seat']",[u'toilet seat'],0
+47,0,0,"[u'tableware' u'cup' u'product design' u'lid' u'product' u'cup'
+
+ u'drinkware']",,,[u'Product' u'Product design' u'Lid' u'Cup' u'Design'],[u'cup'],1
+48,0,0,[u'yellow' u'macro photography' u'font'],,,[u'Yellow' u'Font' u'Macro photography' u'Photography'],[u'macro photography'],1
+49,0,0,[u'blue' u'font' u'organism' u'electric blue' u'product'],,,"[u'Plastic' u'High-density polyethylene' u'Polyethylene' u'Thermoplastic'
+
+ u'Pipe' u'Recycling' u'Plastic film' u'Label' u'Bottle' u'Polymer']",[u'cobalt blue'],1
+50,0,0,"[u'automotive exterior' u'motor vehicle' u'glass' u'material' u'metal'
+
+ u'auto part' u'product']",,,[u'Car' u'Glass' u'Material' u'Metal'],[u'glass'],0
+51,0,1,[u'text' u'font' u'angle' u'sign' u'brand' u'symbol' u'number'],,[u'C/PAP\n' u'C/PAP'],[u'Maintenance' u'Disposable' u'Journal Citation Reports' u'Soap' u'Dust'],[u'Maintenance'],0
+52,1,0,"[u'text' u'font' u'number' u'brown' u'textile' u'material' u'pattern'
+
+ u'product' u'design' u'symbol']",[u'Polypropylene'],,"[u'Recycling' u'Polypropylene' u'Plastic' u'Recycling codes'
+
+ u'Plastic recycling' u'Recycling symbol' u'Polyvinyl chloride'
+
+ u'Container' u'Toilet' u'Low-density polyethylene']",[u'recycling 5'],1
+53,0,1,[u'text' u'font' u'angle' u'brand'],,"[u'90\n\u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0430\n'
+
+ u'90' u'\u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f'
+
+ u'\u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0430']",[u'Font' u'Angle' u'Brand'],[u'angle'],0
+54,0,0,"[u'motor vehicle' u'blue' u'car' u'automotive design' u'electric blue'
+
+ u'vehicle door' u'vehicle' u'automotive exterior' u'automotive lighting'
+
+ u'hood']",,,"[u'Car door' u'Car' u'Compact car' u'Automotive design' u'Wheel'
+
+ u'Motor vehicle' u'Hood' u'Headlamp' u'Tire' u'Family car']",[u'electric blue'],1
+55,0,1,[u'text' u'font' u'calligraphy' u'label'],,"[u'\u0430\u0434\u0441\u043a\u0430\u044f \u043a\u0430, Sm\n'
+
+ u'\u0430\u0434\u0441\u043a\u0430\u044f' u'\u043a\u0430' u',' u'Sm']",[u'Font' u'Calligraphy'],[u'calligraphy'],0
