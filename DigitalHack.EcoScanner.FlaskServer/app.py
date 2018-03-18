@@ -200,27 +200,35 @@ def predict(d):
 
 @app.route('/upload', methods = ['POST'])
 def uploadImage():
-    if 'file' not in request.files:
-        pass
-        #flash('No file part')
-        # return redirect(request.url)
-    ff = request.files['file']
-    # if user does not select file, browser also
-    # submit a empty part without filename
-    if ff.filename == '':
-        pass
-        # flash('No selected file')
-        # return redirect(request.url)
-    if ff:
-        filename = ff.filename
-        saveFilePath = os.path.join(APP_ULOAD, filename)
-        ff.save(saveFilePath)
-        ff.close()
-        print( saveFilePath )
-        visionResponse = visionAPI.annotate_image_for_prediction(saveFilePath)
-        os.remove(saveFilePath)
-        return predict(visionResponse)
-    return ff.filename
+    try:
+        print(request)
+        print(request.files)
+        print(request.files['image'])
+        if 'image' not in request.files:
+            pass
+            #flash('No file part')
+            # return redirect(request.url)
+        ff = request.files['image']
+        # if user does not select file, browser also
+        # submit a empty part without filename
+        if ff.filename == '':
+            pass
+            # flash('No selected file')
+            # return redirect(request.url)
+        if ff:
+            filename = ff.filename
+            saveFilePath = os.path.join(APP_ULOAD, filename)
+            ff.save(saveFilePath)
+            ff.close()
+            print( saveFilePath )
+            visionResponse = visionAPI.annotate_image_for_prediction(saveFilePath)
+            os.remove(saveFilePath)
+            return predict(visionResponse)
+        return ff.filename
+    except Exception as e:
+        print(e)
+        return e
+    
 
 @app.route('/ping', methods = ['GET'])
 def main():
