@@ -22,6 +22,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.graphics.ImageFormat;
@@ -57,6 +58,7 @@ import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -81,6 +83,7 @@ public class CameraActivityFragment extends Fragment
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
     private static final int REQUEST_CAMERA_PERMISSION = 1;
     private static final int REQUEST_INTERNET_PERMISSION = 2;
+    private static final int REQUEST_READ_EXTERNAL_STORAGE_PERMISSION = 2;
     private static final String FRAGMENT_DIALOG = "dialog";
 
     static {
@@ -468,6 +471,7 @@ public class CameraActivityFragment extends Fragment
         } else {
             requestPermissions(new String[]{Manifest.permission.CAMERA}, REQUEST_CAMERA_PERMISSION);
             requestPermissions(new String[]{Manifest.permission.INTERNET}, REQUEST_INTERNET_PERMISSION);
+            requestPermissions(new String[]{Manifest.permission.INTERNET}, REQUEST_READ_EXTERNAL_STORAGE_PERMISSION);
         }
     }
 
@@ -831,6 +835,8 @@ public class CameraActivityFragment extends Fragment
             int rotation = activity.getWindowManager().getDefaultDisplay().getRotation();
             captureBuilder.set(CaptureRequest.JPEG_ORIENTATION, getOrientation(rotation));
 
+
+            final Activity currentActivity = this.getActivity();
             CameraCaptureSession.CaptureCallback CaptureCallback
                     = new CameraCaptureSession.CaptureCallback() {
 
@@ -841,6 +847,7 @@ public class CameraActivityFragment extends Fragment
                     showToast("Saved: " + mFile);
                     Log.d(TAG, mFile.toString());
                     unlockFocus();
+                    OpenPredictActivity(currentActivity);
                 }
             };
 
@@ -887,12 +894,16 @@ public class CameraActivityFragment extends Fragment
         }
     }
 
+    public void OpenPredictActivity(Activity activity){
+        Intent intent = new Intent(activity.getApplicationContext(), PredictActivity.class);
+        activity.startActivity(intent);
+    }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.picture: {
                 takePicture();
-                ImageProcessor.ProcessImage(this.getActivity());
                 break;
             }
             case R.id.info: {
