@@ -21,5 +21,4 @@ public final class ImageProcessor {
         PredictRequest pr = new PredictRequest(activity);
         pr.execute();
     }
-
 }

@@ -59,9 +59,7 @@ public class PredictRequest extends AsyncTask<String, String, String> {
     protected void onPostExecute(String result) {
         super.onPostExecute(result);
         PredictActivity predictActivity = (PredictActivity)this.activity;
-        predictActivity.predictTxtStatus.setText(result);
-        predictActivity.predictProgressBar.setVisibility(View.INVISIBLE);
-
+        predictActivity.processPredictResponse(result);
         //Do anything with response..
     }
 
